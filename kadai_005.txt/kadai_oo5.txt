@@ -1,0 +1,36 @@
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace
+$ mkdir git_challenge
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace
+$ cd git_challenge
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/Owner/workspace/git_challenge/.git/
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git add hello_world.txt
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 9754ac2] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt/hello_world.txt
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git add hello_world.txt
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main bfa3723] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
