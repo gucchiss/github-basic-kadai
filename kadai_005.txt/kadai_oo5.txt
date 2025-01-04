@@ -34,3 +34,16 @@ $ git status
 On branch main
 nothing to commit, working tree clean
 
+Owner@DESKTOP-M2ASLNG MINGW64 ~/workspace/git_challenge (main)
+$ git log
+commit bfa3723947917ffd6e98f0a79f4f1bec5d8147e5 (HEAD -> main)
+Author: gucchiss <ssgucchi2434@gmail.com>
+Date:   Fri Jan 3 04:18:46 2025 +0900
+
+    日本語訳を追記
+
+commit 9754ac2ffa49f2e34cbcfeeb09632cdc123cea64
+Author: gucchiss <ssgucchi2434@gmail.com>
+Date:   Fri Jan 3 04:16:39 2025 +0900
+
+    hello_world.txtを追加
